@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="images/icons/icon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <script type="text/javascript" src="news.json"></script>
+    <script type="text/javascript" src="musics.json"></script>
+    <script type="text/javascript" src="images.json"></script>
+    <script type="text/javascript" src="script.js"></script>
+<title>Сеть</title>
+  </head>
+  <body onload="newsFunc()">
+    <div class="site">
+      <div class="myModal" id="myModal">
+        <a href="#" class="close" id="close" onclick="closeModal()">X</a>
+        <div class="modalContent" id="modalContent">
+
+        </div>
+      </div>
+      <div class="menu" id="menu">
+        <div class="buttons">
+          <div class="logo">
+            <a href="#"> <span id="firstLetter">С</span>еть </a>
+          </div>
+          <a href="#">
+            <div class="news" onclick="newsFunc()">
+              <img src="images/icons/news.png">
+               Новости
+            </div>
+          </a>
+          <a href="#">
+            <div class="musics" onclick="musicsFunc()">
+              <img src="images/icons/musics.png">
+              Музыка
+            </div>
+          </a>
+          <a  href="#">
+            <div class="images" onclick="imagesFunc()">
+              <img src="images/icons/images.png">
+              Изображения
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="wall" id="wall">
+        <div class="content" id="wall">
+
+        </div>
+
+      </div>
+      <div class="player" id="player">
+
+      </div>
+    </div>
+  </body>
+</html>

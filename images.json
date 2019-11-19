@@ -1,0 +1,11 @@
+images = '[\
+  {\
+    "image": "images/photo/model 3.jpg"\
+  },\
+  {\
+    "image": "images/photo/model S.jpg"\
+  },\
+  {\
+    "image": "images/photo/model X.jpg"\
+  }\
+]';

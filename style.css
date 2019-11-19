@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: Comic Sans MS, sans-serif;
+}
+
+::-webkit-scrollbar-button {
+  background-image:url('');
+  background-repeat:no-repeat;
+  width:5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color:#c6cfcb;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  background-color:#12a692;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color:white;
+  -webkit-width: 10px;
+}
+
+::-webkit-resizer{
+  background-image:url('');
+  background-repeat:no-repeat;
+  width:4px;
+  height:0px
+}
+
+::-webkit-scrollbar{
+  width: 4px;
+}
+
+.site {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  padding: 10px;
+  background-color: #f5d6b5;
+}
+
+.menu {
+  float: left;
+  width: 250px;
+  height: 100%;
+  background-color: #12a692;
+  border-radius: 15px 0 0 15px;
+}
+
+.wall {
+  float: left;
+  width: calc(100% - 250px);
+  height: 100%;
+  overflow: auto;
+  background-color: #dee3d5;
+  border-radius: 0 15px 15px 0;
+}
+
+.player {
+  display: none;
+  float: left;
+  width: 100%;
+  height: 70px;
+  background-color: #f7f7f7;
+  margin-bottom: 10px;
+  position: fixed bottom;
+  border-radius: 0 0 15px 15px;
+  border: 1px solid #12a692;
+}
+
+.musicsNamePlayer {
+  color: #12a692;
+  margin-left: 20px;
+}
+
+.close_1 {
+  color: #12a692;
+  float: right;
+  margin-right: 20px;
+}
+
+.close_1:hover{
+  font-size: 1.4em;
+  margin: -3px 17px 0 0;
+}
+
+ .buttons{
+   margin:50px 0 0 30px;
+ }
+
+#firstLetter{
+  color: #eba23d;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a.aktive {color: white}
+
+.myModal{
+  display: none;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  border-radius: 15px;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 1;
+  position: fixed;
+}
+
+.modalContent{
+  margin: 50px;
+  width: calc(100% - 100px);
+  height: calc(100% - 100px);
+}
+
+.photo{
+  height: inherit;
+  width: auto;
+  display: block;
+  margin: 120px auto auto auto;
+}
+
+.close {
+  float: right;
+  margin: 30px 30px 0 0;
+  color: white;
+  font-size: 1em;
+}
+
+.close:hover{
+  font-weight: bold;
+  font-size: 2em;
+  margin: 20px 25px 0 0;
+}
+
+.menu img{
+  float:left;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.logo a{
+  font-size: 30px;
+}
+
+.logo{
+  margin-bottom: 50px;
+  padding-left: 20px;
+}
+
+.news, .musics, .images{
+  height: 40px;
+  padding: 15px 0 0 20px;
+  border-radius: 30px 0 0 30px;
+}
+
+.news:hover, .musics:hover, .images:hover {
+  height: 40px;
+  padding: 15px 0 0 20px;
+  border-radius: 30px 0 0 30px;
+  background-color: #45968b;
+}
+
+.content {
+  margin: 40px 70px 40px 70px;
+}
+
+.newsWall {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #f7fced;
+  width: calc(100% - 60px);
+  border: solid white 1px;
+  margin: 10px;
+}
+
+.newsWall:hover {
+  border: solid silver 1px;
+}
+
+.newsWall #data{
+  color: #50524d;
+  font-size: 0.7em;
+}
+
+.newsWall #name{
+  color: #111d5c;
+  font-size: 1.5em;
+  margin-left: 10px;
+}
+
+.newsWall img{
+  margin-top: 5px;
+  width: 250px;
+}
+
+.heading {
+  color: #12a692;
+  font-size: 3em;
+  margin-left: 40%;
+  margin-bottom: 10px;
+}
+
+.imagesWall{
+  float:left;
+  padding: 5px;
+  margin: 10px;
+  background-color: #f7fced;
+  border-radius: 10px;
+  width: auto;
+}
+
+.imagesWall img{
+  width: 200px;
+}
+
+.imagesWall img:hover {
+  width: 250px;
+}
+
+.musicsWall {
+  padding:20px 0 20px 0;
+  background-color: #f7f7f7;
+  width: calc(100% - 20px);
+  margin:10px;
+  border-radius: 50px;
+}
+audio {
+  height: 40px;
+  width: calc(100% - 40px);
+}
+
+audio::-webkit-media-controls-panel{
+  background-color: #f7f7f7;
+}
+
+.musicsName {
+  display: block;
+  width: 50%;
+  float: left;
+  padding-left: 40px;
+}
+
+.musicsDate {
+  text-align: right;
+  display: block;
+  width: 20%;
+  float: left;
+}
+
+.musicsGenre {
+  text-align: right;
+  display: block;
+  width: 20%;
+  float: left;
+}
+
+.musicsHead {
+  display: block;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.musicsHead a{
+  color: black;
+}
+
+.musics_1 {
+  color: black;
+}
+
+.bodyMusics {
+  display: block;
+}

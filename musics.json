@@ -1,0 +1,26 @@
+musics = '[\
+  {\
+    "name": "Jelly roll - Hate goes on",\
+    "dateM": "2017.09.29",\
+    "genre": "hip-hop",\
+    "music": "musics/jelly roll hate goes on.mp3"\
+  },\
+  {\
+    "name": "Tech N9Ne - EF U",\
+    "dateM": "2019.05.16",\
+    "genre": "hip-hop",\
+    "music": "musics/Tech N9Ne - EF U (Easier For You) ft. Krizz Kaliko, Jelly Roll (2019).mp3"\
+  },\
+  {\
+    "name": "Skillet - Monster",\
+    "dateM": "2009.10.03",\
+    "genre": "rock",\
+    "music": "musics/skillet-monster.mp3"\
+  },\
+  {\
+    "name": "Pop Evil - Trenches",\
+    "dateM": "2013.03.28",\
+    "genre": "rock",\
+    "music": "musics/pop_evil_trenches.mp3"\
+  }\
+]';
